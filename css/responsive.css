@@ -1,0 +1,33 @@
+@media all and (max-width: 700px) {
+
+    #content {
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .formElement {
+        height: 60px;
+        margin-bottom: 30px;
+    }
+
+    ::placeholder,
+    .formElement select,
+    .formElement .icons,
+    input[type="checkbox"] + label {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .logo figure:last-of-type img {
+        width: 350px;
+    }
+}

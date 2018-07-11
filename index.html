@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Weekly Webdev Challenge #01</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/logo.png" alt="logo">
+        </header>
+        <div id="content">
+            <div class="leftSide">
+
+                <!-- Register Form -->
+
+                <div class="form-item">
+                    <h2>Register Form</h2>
+                    <div class="form">
+                        <form action="" method="post">
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="text" placeholder="Username" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="password" placeholder="Password" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="password" placeholder="Confirm Password" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-map-marker-alt fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <select name="yourLocation" id="yourLocation"> 
+                                    <option class="changeHeight" value="" selected disabled hidden>Your Location</option>
+                                    <option value="Warsaw">Warsaw</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="London">London</option>
+                                    <option value="New York">New York</option>
+                               </select>
+                            </div>
+                            <div class="formElementCheckbox">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">I had read and accept the terms of use.</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Sign up">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Send Email Form -->
+
+                <div class="form-item">
+                    <h2>Send Email Form</h2>
+                    <div class="form">
+                        <form action="" method="post">
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="formElementTextarea">
+                                <textarea name="" id="" placeholder="Type Your message..." required></textarea>
+                            </div>
+                            <div class="formElementCheckbox">
+                                <input type="checkbox" id="checkbox-send-email">
+                                <label for="checkbox-send-email">Send a copy to my Email</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Send Email">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightSide">
+
+                <!-- Sign In Form -->
+
+                <div class="form-item">
+                    <h2>Sign In Form</h2>
+                    <div class="form">
+                        <form action="" method="post">
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="text" placeholder="Username" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="password" placeholder="Password" required>
+
+                            </div>
+                            <div class="formElementCheckbox formElementSignIn">
+                                <div class="checkbox"><input type="checkbox" id="checkbox-sign-in">
+                                    <label for="checkbox-sign-in">Remember me</label></div>
+
+                                <div class="submit">
+                                    <input type="submit" value="Sign in">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Recover Form -->
+
+                <div class="form-item">
+                    <h2>Recover Form</h2>
+                    <div class="form">
+                        <form action="" method="post">
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i></div>
+<input type="email" placeholder="Enter your Email" required>
+                            </div>
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-mobile-alt fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="number" placeholder="Enter your Phone number" required>
+                            </div>
+                            <div class="recover">
+                                <div class="submit">
+                                    <input type="submit" value="Send">
+                                </div>
+
+                                <div class="submit">
+                                    <input type="submit" value="Done">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Subscribe Form -->
+
+                <div class="form-item">
+                    <h2>Subscribe Form</h2>
+                    <div class="form">
+                        <form action="" method="post">
+                            <div class="formElement">
+                                <div class="icons"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i></div>
+                                <input type="email" placeholder="Enter your Email" required>
+                            </div>
+                            <div class="subscribe">
+                                <div class="submit">
+                                    <input type="submit" value="Subscribe">
+                                </div>
+
+                                <div class="submit">
+                                    <input type="submit" value="No, Thanks">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- logo -->
+
+                <div class="logo">
+                    <figure> <img src="img/logo.png" alt="logo"></figure>
+                    <figure> <img src="img/www.svg" alt="www"></figure>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
